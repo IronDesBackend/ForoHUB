@@ -2,13 +2,13 @@
 Este programa en un __Foro__ en el cual distintos estudiantes de Alura deben de poder publicar contenido,
 esto por medio del uso de distintas funciones CRUD (Create, Read, Update, Delete) y el uso de una API REST.
 
-##Funcionalidades
+## Funcionalidades
 
 Para emepezar debes autenticarte, envia una solicitud POST a /login con tu usuario y contraseña. Luego de esto
 el programa te devolvera un TOKEN que debes incluirlo en el header "Authorization" como un Bearer Token para 
 realizar proximas consultas y obtener información de las mismas.
 
-###EndPoints CRUD
+### EndPoints CRUD
 +   POST   =     /topicos       --> Con esta solicitud creas un nuevo topico
 +   GET    =     /topicos       --> Con esta solicitud obtienes una lista de topicos
 +   PUT    =     /topicos/{id}   --> Con esta consulta actualizas un topico creado anteriormente. Requieres el "id" de dicho topico
@@ -32,7 +32,7 @@ ejecutar el archivo `Main.java`, para ello debes de seguir la siguiente ruta:
 
 Diviertete!
 
-# #Dependencias
+# Dependencias
 
 + Spring Boot Starter Web
 + Spring Boot Devtools
